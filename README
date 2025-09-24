@@ -1,0 +1,51 @@
+!
+# Animal Voting App
+
+A simple web app that allows users to view a list of animals, see details (image & votes) for a selected animal, and vote for it. Data is fetched from a local JSON DB server.
+
+---
+
+## Table of Contents
+
+1. [Features](#features)  
+2. [Technologies Used](#technologies-used)  
+3. [Setup & Installation](#setup--installation)  
+4. [Usage](#usage)  
+5. [Project Structure](#project-structure)  
+6. [Contributing](#contributing)  
+7. [License](#license)
+
+---
+
+## Features
+
+- Display a list of all animals.  
+- Click an animal name to view its details (name, image, current votes).  
+- Vote for an animal — votes update in the frontend in real‑time (no backend persistence required).  
+
+---
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript (or specify framework/library if using React, Vue, etc.)  
+- **Backend**: JSON Server (`json-server`)  
+- **Fetch API** for AJAX requests  
+
+---
+
+## Setup & Installation
+
+These instructions will get the project up and running on your local machine.
+
+### Prerequisites
+
+- Node.js and npm installed  
+- `json-server` (you can install globally via `npm install -g json-server` or as dev dependency)  
+
+### Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository_url>
+   cd <project_folder>
