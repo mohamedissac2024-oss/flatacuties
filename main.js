@@ -93,4 +93,4 @@ voteButtonEl.addEventListener('click', () => {
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
   fetchCharacters();
-});
+
